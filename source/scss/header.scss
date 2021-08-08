@@ -1,0 +1,44 @@
+
+.header-top {
+   @include flexbox();
+   justify-content: space-between;
+
+
+		&__link {
+		}
+}
+.header-top-lang {
+   @include flexbox();
+
+
+		&__item {
+         
+         display: block;
+         color: #fff;
+         line-height: 19px;
+		}
+}
+.header-bottom {
+
+
+		&__column {
+		}
+}
+.header-bottom-menu {
+
+
+		&__link {
+		}
+}
+.header-bottom-menu-list {
+}
+.header-logo {
+
+
+		&__text {
+		}
+
+
+		&__image {
+		}
+}
