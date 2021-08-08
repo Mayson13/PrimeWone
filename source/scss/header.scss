@@ -1,27 +1,43 @@
-
+header {
+   padding: 29px 0 33px 0;
+   background-color: #fff;
+}
 .header-top {
    @include flexbox();
    justify-content: space-between;
-
-
+   
 		&__link {
+         font-size: 15px;
+         color: #000;
+         text-transform: uppercase;
+         font-family: AkzidenzGrotesk;
+         text-decoration: underline;
 		}
 }
 .header-top-lang {
    @include flexbox();
 
-
 		&__item {
-         
          display: block;
-         color: #fff;
+         color: #000;
          line-height: 19px;
+         font-size: 10px;
+         text-transform: uppercase;
+         font-family: Bebas;
+         letter-spacing: 1px;
+         padding: 0 4px;
+         margin: 0 10px 0 0 ;
+         &.active {
+            background-color: #000;
+            color: #fff;
+         }
 		}
 }
 .header-bottom {
-
+   @include flexbox();
 
 		&__column {
+         flex: 0 0 33.333%;
 		}
 }
 .header-bottom-menu {
