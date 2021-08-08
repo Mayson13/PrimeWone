@@ -1,0 +1,42 @@
+@import "reset.scss";
+
+//шрифты
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+@font-face {
+  font-family: "Bebas";
+  src: url("../../fonts/BebasRegular.eot");
+  src: local("☺"), url("../../fonts/BebasRegular.woff") format("woff"),
+    url("../../fonts/BebasRegular.ttf") format("truetype"),
+    url("../../fonts/BebasRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AkzidenzGrotesk";
+  src: url("../../fonts/AkzidenzGroteskBQ-BdCnd.eot");
+  src: local("☺"),
+    url("../../fonts/AkzidenzGroteskBQ-BdCnd.woff") format("woff"),
+    url("../../fonts/AkzidenzGroteskBQ-BdCnd.ttf") format("truetype"),
+    url("../../fonts/AkzidenzGroteskBQ-BdCnd.svg") format("svg");
+  font-weight: normal;
+  font-style: 700;
+}
+
+//ПЕРЕМЕННЫЕ
+$minw: 320px;
+$mw: 880px;
+
+
+.wrapper {
+  max-width: $mw;
+  margin: 0 auto;
+}
+
+//Шрифт по умолчанию
+$fontfamily: "PT sans";
+
+
+
+//***************************************
